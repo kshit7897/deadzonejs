@@ -1,5 +1,3 @@
-
-
 // // let arr = [[1,2,3],[4,5,6],[7,8,9]]
 // ​
 // // let n = arr.length
@@ -13,7 +11,7 @@
 // //     }
 // ​
 // // }
-// // i=0 true newArray= arr[0] => j=0 true prints 1 => j=1 true print 2 => j=2 true print 3 =>j=3 false 
+// // i=0 true newArray= arr[0] => j=0 true prints 1 => j=1 true print 2 => j=2 true print 3 =>j=3 false
 // // i=1  true newArray = arr[1]
 // ​
 // ​
@@ -45,11 +43,11 @@
 // // }
 // ​
 // ​
-// // let arrayOfObjects = [{name:'Avish',age:21} , {name:"Rahul" , age:17} , {name:"Karan" , age:20}]
-// // let filteredArrayOfObjects = arrayOfObjects.filter((a)=>{
-// //     return a["age"] >18
-// // })
-// // console.log(filteredArrayOfObjects)
+// let arrayOfObjects = [{name:'Avish',age:21} , {name:"Rahul" , age:17} , {name:"Karan" , age:20}]
+// let filteredArrayOfObjects = arrayOfObjects.filter((a)=>{
+//     return a.age >18
+// })
+// console.log(filteredArrayOfObjects)
 
 // let ArrayOfobjects=[{name:'kshit',age:24},{name:'avish',age:20},{name:'charu',age:17}]
 // let filteredArrayOfobjects =ArrayOfobjects.filter((a)=>{
@@ -57,28 +55,28 @@
 // })
 // console.log(filteredArrayOfobjects)
 
-
-
 // let arrayOfObjects = [{name:'rajvi',age:23} , {name:"niyati" , age:18} , {name:"nayan" , age:23}]
 // let filteredArrayOfObjects = arrayOfObjects.filter((a)=>{
 //     return a["age"] <20
 //  })
 //  console.log(filteredArrayOfObjects)
 
+let arrayOfObjects = [
+  { name: "rajma", price: 100 },
+  { name: "daal", price: 120 },
+  { name: "rice", price: 150 },
+];
+let filteredArrayOfObjects = arrayOfObjects.filter((a) => {
+  return a["price"] > 120;
+});
+console.log(filteredArrayOfObjects);
 
-
-//  let arrayOfObjects = [{name:'rajma',price:100} , {name:"daal" , price:120} , {name:"rice" , price:150}]
-// let filteredArrayOfObjects = arrayOfObjects.filter((a)=>{
-//     return a["price"] >120
-//  })
-//  console.log(filteredArrayOfObjects)
-
-  let obj = {
-    name:"kshit",
-     salery:[8,00,000],
-     car:["BMW"],
-    profesion:"web devloper at aircampus"
- }
-for(let key in obj){
-     console.log(key, obj[key])
- }
+//   let obj = {
+//     name:"kshit",
+//      salery:[8,00,000],
+//      car:["BMW"],
+//     profesion:"web devloper at aircampus"
+//  }
+// for(let key in obj){
+//      console.log(key, obj[key])
+//  }
